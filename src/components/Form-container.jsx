@@ -1,11 +1,12 @@
 import React from "react";
+import './Form-container.css'
 
 export default function FormContainer() {
     return(
         <div className="forms-container">
             <div className="signin-signup">
                 <form action="" className="sign-in-form">
-                    <h2 className="tittle">Sign in</h2>
+                    <h2 className="title">Sign in</h2>
                     <div className="input-field">
                         <i className="fas fa-user"></i>
                         <input type="text" placeholder="Username"/>
