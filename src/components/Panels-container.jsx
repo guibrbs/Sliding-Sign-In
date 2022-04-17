@@ -1,7 +1,7 @@
 import React from "react";
 import './Panels-container.css'
 import MakerLaunch from '../assets/images/maker_launch.svg'
-import PressPlay from '../assets/images/press-play.svg'
+import PressPlay from '../assets/images/play.svg'
 
 export default function PanelsContainer({ setProps }){
     return(
@@ -22,7 +22,7 @@ export default function PanelsContainer({ setProps }){
                         Corporis, quidem ex. Praesentium?</p>
                     <button className="btn transparent" id="sign-in-btn" onClick={(e) => setProps(0)}>Sign in</button>
                 </div>
-                <img src={PressPlay} alt="" className="image" />
+                <img src={PressPlay} alt="" className="image" id="scnd"/>
             </div>
         </div>
     )

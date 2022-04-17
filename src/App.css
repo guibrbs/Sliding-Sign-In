@@ -29,3 +29,16 @@
 .container.sign-up-mode .left-panel .content{
   transform: translateX(-800px);
 }
+
+.container.sign-up-mode .right-panel .image, 
+.container.sign-up-mode .right-panel .content{
+  transform: translateX(0);
+}
+
+.container.sign-up-mode .signin-signup{
+  left: 25%;
+}
+
+.container.sign-up-mode form.sign-in-form{
+  
+}
