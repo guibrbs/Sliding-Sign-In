@@ -9,12 +9,23 @@
 .container::before{
   content: '';
   position: absolute;
-  width: 2000px;
-  height: 2000px;
+  width: 145rem;
+  height: 145rem;
   border-radius: 50%;
   background: linear-gradient(-45deg, #4481eb, #04befe);
   top: -10%;
   right: 48%;
   transform: translateY(-50%);
   z-index: 6;
+  transition: 1.8s ease-in-out;
+}
+
+.container.sign-up-mode::before{
+  transform: translate(100%, -50%);
+  right: 52%;
+}
+
+.container.sign-up-mode .left-panel .image, 
+.container.sign-up-mode .left-panel .content{
+  transform: translateX(-800px);
 }
