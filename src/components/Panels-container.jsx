@@ -1,5 +1,7 @@
 import React from "react";
 import './Panels-container.css'
+import MakerLaunch from '../assets/images/maker_launch.svg'
+import PressPlay from '../assets/images/press-play.svg'
 
 export default function PanelsContainer(){
     return(
@@ -11,6 +13,16 @@ export default function PanelsContainer(){
                         Corporis, quidem ex. Praesentium?</p>
                     <button className="btn transparent" id="sign-up-btn">Sign up</button>
                 </div>
+                <img src={MakerLaunch} alt="" className="image" />
+            </div>
+            <div className="panel right-panel">
+                <div className="content">
+                    <h3>One of us?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Corporis, quidem ex. Praesentium?</p>
+                    <button className="btn transparent" id="sign-in-btn">Sign in</button>
+                </div>
+                <img src={PressPlay} alt="" className="image" />
             </div>
         </div>
     )
