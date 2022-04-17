@@ -21,10 +21,12 @@
 }
 
 .left-panel{
-    padding: 3rem 17% 12rem 10%;
+    pointer-events: all;
+    padding: 7rem 17% 12rem 10%;
 }
 
 .right-panel{
+    pointer-events: none;
     padding: 3rem 12% 2rem 17%;
 }
 
