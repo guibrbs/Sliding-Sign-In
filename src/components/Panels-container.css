@@ -67,3 +67,58 @@
 .right-panel .content, .right-panel .image{
     transform: translateX(800px);
 }
+
+@media (max-width: 870px) {
+    .panels-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr 1fr;
+    }
+
+    .panel{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 2.5rem 8%;
+    }
+    
+    .panel .content{
+        padding-right: 15%;
+        transition: .9s .8s ease-in-out;
+    }
+
+    .panel h3{
+        font-size: 1.2rem;
+    }
+
+    .panel p{
+        font-size: 0.7rem;
+        padding: 0.5rem 0;
+    }
+
+    .btn.transparent{
+        width: 110px;
+        height: 35px;
+        font-size: .7rem;
+    }
+
+    .image{
+        width: 260px;
+        transition: .9s .6s ease-in-out;
+    }
+    
+    .image#scnd{
+        width: 200px;
+    }
+
+    .right-panel .content, .right-panel .image{
+        transform: translateY(300px);
+    }
+
+    .left-panel{
+        grid-row: 1 / 2;
+    }
+
+    .right-panel{
+        grid-row: 3 / 4;
+    }
+}
