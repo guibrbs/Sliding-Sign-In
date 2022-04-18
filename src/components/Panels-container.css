@@ -34,7 +34,7 @@
 }
 
 .right-panel{
-    pointer-events: all;
+    pointer-events: none;
     padding: 7rem 17% 12rem 10%;
 }
 
